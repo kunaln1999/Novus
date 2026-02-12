@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Immersive Web Experiences | Novus</title>
+    <meta name="title" content="Immersive Web Experiences | Novus">
+    <meta name="description"
+        content="Pushing the boundaries of the 2D web. Expertise in high-fidelity WebGL, Three.js, custom GLSL shaders, and interactive physics-based digital experiences.">
+    <meta name="keywords"
+        content="immersive web design, WebGL agency, Three.js development, 3D websites, creative coding, interactive web experiences, GLSL shaders">
+    <meta name="author" content="Novus Agency">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://novus.agency/immersive-web.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novus.agency/immersive-web.html">
+    <meta property="og:title" content="Immersive Web | Depth Unbound by Novus">
+    <meta property="og:description"
+        content="Transcending the 2D plane with high-fidelity WebGL and physics-based interactions.">
+    <meta property="og:image" content="https://novus.agency/assets/og-immersive.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="immersive-page">
+    <script>document.body.classList.add('js-enabled');</script>
+
+    <!-- Cursor -->
+
+
+    <header class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">NOVUS<span class="dot">.</span></a>
+            <nav class="nav-links">
+                <a href="work.html" class="nav-link" data-text="Work">Work</a>
+                <a href="services.html" class="nav-link" data-text="Services">Services</a>
+                <a href="about.html" class="nav-link" data-text="About">About</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="contact.html" class="cta-button magnet-target">
+                    <span class="btn-text">Start Project</span>
+                </a>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="immersive-hero">
+            <div class="immersive-bg"></div>
+            <div class="container">
+                <h1 class="immersive-title reveal-text">Depth<br>Unbound</h1>
+                <p class="immersive-subtitle reveal-text delay-1">
+                    Transcending the 2D plane with high-fidelity WebGL, physics-based interactions, and motion sounds.
+                </p>
+            </div>
+        </section>
+
+        <!-- Stat Strip -->
+        <div class="stat-strip">
+            <div class="container">
+                <div class="stat-grid-v2">
+                    <div class="stat-item-v2 reveal-on-scroll">
+                        <span class="stat-num-v2">120Hz</span>
+                        <span class="stat-label-v2">Ultra-Fluid Motion</span>
+                    </div>
+                    <div class="stat-item-v2 reveal-on-scroll delay-1">
+                        <span class="stat-num-v2">PBR</span>
+                        <span class="stat-label-v2">Physics Based Rendering</span>
+                    </div>
+                    <div class="stat-item-v2 reveal-on-scroll delay-2">
+                        <span class="stat-num-v2">8ms</span>
+                        <span class="stat-label-v2">Lower-Latency Rates</span>
+                    </div>
+                    <div class="stat-item-v2 reveal-on-scroll delay-3">
+                        <span class="stat-num-v2">50+</span>
+                        <span class="stat-label-v2">Geometries</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label reveal-on-scroll">The Stack</span>
+                    <h2 class="section-title reveal-on-scroll">Engineering<br>Immersion</h2>
+                </div>
+
+                <div class="grid-showcase">
+
+                    <div class="feature-panel reveal-on-scroll delay-1">
+                        <div class="feature-visual"></div>
+                        <h3>Shader Artistry</h3>
+                        <p>Custom GLSL shaders for fluid simulations, light refraction, and procedural generation.</p>
+                    </div>
+
+                    <div class="feature-panel reveal-on-scroll delay-2">
+                        <div class="feature-visual"></div>
+                        <h3>Performance First</h3>
+                        <p>Optimized geometry and instancing to maintain fluid frame rates even on mobile devices.</p>
+                    </div>
+
+                    <div class="feature-panel reveal-on-scroll delay-3">
+                        <div class="feature-visual"></div>
+                        <h3>Interactive Physics</h3>
+                        <p>Real-time collision detection and gravity simulations that respond to user input.</p>
+                    </div>
+
+                    <div class="feature-panel reveal-on-scroll">
+                        <div class="feature-visual"></div>
+                        <h3>Motion Sounds</h3>
+                        <p>Interactive motion sounds that turn simple clicks, scrolls, and drags into tactile digital
+                            experiences.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-wrapper reveal-on-scroll">
+                    <div class="contact-content">
+                        <h2>Ready to Disrupt?</h2>
+                        <p>Let's create something that defines your industry.</p>
+                        <a href="mailto:hello@novus.agency" class="btn btn-primary btn-large magnet-target">
+                            <span class="btn-text">Start a Conversation</span>
+                            <div class="btn-fill"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+
+    <script src="modal.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
