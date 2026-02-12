@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalCloseBtn = contactModal ? contactModal.querySelector('.modal-close') : null;
 
     // Select all Start Project buttons (both ID and class)
-    const startProjectBtns = document.querySelectorAll('#start-project-btn, .cta-button, a[href="#contact"], a[href$="#contact"]');
+    const startProjectBtns = document.querySelectorAll('#start-project-btn, .cta-button, .mobile-cta, a[href="#contact"], a[href$="#contact"]');
 
     function openModal() {
         if (contactModal) {
